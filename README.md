@@ -52,6 +52,26 @@ client's 14-character limit. Use `title` for anything longer.
 
 4. Update the top-level `updated` field and open a pull request.
 
+## Using it in-game
+
+`Manager` → **Browse online** opens the browser. The first click installs a profile into
+`keystrokes/profiles/`, the second one applies it. `Refresh` re-fetches `index.json`.
+
+Console equivalents (command line module):
+
+```
+profiles online                    list the catalogue
+profiles online refresh            re-fetch index.json
+profiles online open               open the browser screen
+profiles online get <name>         download only
+profiles online apply <name>       download and apply
+profiles online repo <owner/name>  point the client at a fork
+```
+
+The client defaults to `SkidderiumX/Ryause-Official-Profile` and falls back from
+`raw.githubusercontent.com` to jsDelivr if raw is unreachable. Every download is checked
+against the `sha1` in `index.json` before it is written to disk.
+
 ## Notes
 
 Profiles only contain module states, settings, keybinds and HUD positions. They cannot
