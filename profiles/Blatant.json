@@ -269,6 +269,26 @@
             "Silent": false
         },
         {
+            "name": "Clutch Test",
+            "enabled": false,
+            "hidden": false,
+            "keybind": 0,
+            "Min fall": 0.5,
+            "Delay": 0.0,
+            "FOV": 360.0,
+            "Only-Void": true
+        },
+        {
+            "name": "Clutch",
+            "enabled": false,
+            "hidden": false,
+            "keybind": 0,
+            "Minimum fall distance": 5.0,
+            "Enable delay": 20.0,
+            "On-kb": true,
+            "Void-only": true
+        },
+        {
             "name": "Bhop",
             "enabled": false,
             "hidden": false,
@@ -713,11 +733,11 @@
         },
         {
             "name": "Scaffold",
-            "enabled": false,
+            "enabled": true,
             "hidden": false,
             "keybind": 44,
             "Motion": 1.0,
-            "Rotation": 1.0,
+            "Rotation": 2.0,
             "Snap fast mode": 0.0,
             "Snap rotations": 0.0,
             "Snap rotation speed": 2.0,
@@ -1042,6 +1062,7 @@
             "posY": 40,
             "Mode": 1.0,
             "Theme": 0.0,
+            "Scale": 1.0,
             "Render ESP": false,
             "Show difference": false,
             "Show health": true,
@@ -1077,6 +1098,23 @@
             "Fireball (enemy)": true,
             "Fireball (thrown)": true,
             "Snowball": true
+        },
+        {
+            "name": "Watermark",
+            "enabled": false,
+            "hidden": false,
+            "keybind": 0,
+            "posX": 5,
+            "posY": 5,
+            "Style": 0.0,
+            "Logo mode": 1.0,
+            "Theme": 4.0,
+            "Scale": 2.0,
+            "Show FPS": true,
+            "Show ping": true,
+            "Show BPS": true,
+            "Show TPS": true,
+            "Show target": true
         },
         {
             "name": "Xray",
@@ -1371,6 +1409,14 @@
             "Lowercase": true
         },
         {
+            "name": "Chat",
+            "enabled": false,
+            "hidden": false,
+            "keybind": 0,
+            "Chat size": 1.0,
+            "Text-box size": 1.5
+        },
+        {
             "name": "IRC",
             "enabled": false,
             "hidden": false,
@@ -1388,6 +1434,7 @@
             "enabled": false,
             "hidden": false,
             "keybind": 54,
+            "Mode": 0.0,
             "Scale": 1.0,
             "Background blur": 45.0,
             "Scroll speed": 35.0,
