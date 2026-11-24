@@ -3,7 +3,7 @@
     "name": "Ryause Official Profiles",
     "client": "Ryause b1",
     "mc": "1.8.9",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "profiles": [
         {
             "file": "Closest",
@@ -19,7 +19,7 @@
             "author": "Ryause",
             "description": "Mid-ground setup: KillAura plus WTap and Backtrack, AutoPlace without Reach or Hitbox.",
             "mc": "1.8.9",
-            "sha1": "65f78657ec097d456f038a77323335899fdb1829"
+            "sha1": "7e78935c701e6e06c2a82517a77621e47574adc2"
         },
         {
             "file": "Blatant",
